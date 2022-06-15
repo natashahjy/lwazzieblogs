@@ -1,3 +1,3 @@
 # lwazzieblogs
-# This is my blogsite!
-# Status: WIP
+### This is my blogsite!
+### Status: WIP
