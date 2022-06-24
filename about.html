@@ -36,10 +36,10 @@
                     <ul class="nav nav-pills justify-content-end">
                         <li class="nav-item">
                             <!--aria-current page value just represents current page-->
-                            <a class="nav-link active bg-secondary" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active bg-secondary" href="home.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="about.html">About</a>
+                            <a class="nav-link text-dark" aria-current="page" href="#">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="#">FAQ</a>
@@ -56,23 +56,41 @@
     <main>
         <!--This is the main container-->
         <div class="container">
+            <div class="card">
+                <div class="row g-0">
+                    <!--Column 1-->
+                    <div class="col-md-4">
+                        <img class="img-fluid rounded-start" src="https://picsum.photos/200/300" alt="image">
+                    </div>
+                    <!--Column 2-->
+                    <div class="col-md-8">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">About</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--To do hover cards!-->
             <div class="row justify-content-center">
                 <div class="card text-center" style="width: 18rem;">
                     <img class="card-img-top" src="https://picsum.photos/200/300" alt="image">
                     <div class="card-body">
-                        <a href="#" class="btn  btn-dark">Life</a>
+                        <h5 class="card-title">Why</h5>
                     </div>
                 </div>
                 <div class="card text-center" style="width: 18rem;">
                     <img class="card-img-top" src="https://picsum.photos/200/300" alt="image">
                     <div class="card-body">
-                        <a href="#" class="btn  btn-dark">Beauty</a>
+                        <h5 class="card-title">Family</h5>
                     </div>
                 </div>
                 <div class="card text-center" style="width: 18rem;">
                     <img class="card-img-top" src="https://picsum.photos/200/300" alt="image">
                     <div class="card-body">
-                        <a href="#" class="btn  btn-dark">Games</a>
+                        <h5 class="card-title">Communication</h5>
                     </div>
                 </div>
 
